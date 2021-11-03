@@ -39,8 +39,7 @@ class Circle {
         let randomCenter = CGPoint(x: x, y: y)
         
         let randomColor = UIColor.randomColor
-        UIColor.randomColor
-        
+
         let circle = Circle(color: randomColor, radius: randomRadius, center: randomCenter)
         return circle
     }

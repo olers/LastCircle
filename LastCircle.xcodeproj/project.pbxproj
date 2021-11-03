@@ -17,6 +17,7 @@
 		48389425272FC823007C963C /* LastCircleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48389424272FC823007C963C /* LastCircleUITests.swift */; };
 		48389427272FC823007C963C /* LastCircleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48389426272FC823007C963C /* LastCircleUITestsLaunchTests.swift */; };
 		48389436272FCE55007C963C /* Circle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48389435272FCE55007C963C /* Circle.swift */; };
+		486FED48273282DC008F9979 /* CircleFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 486FED47273282DC008F9979 /* CircleFactory.swift */; };
 		48AFD7C927322821007BC330 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48AFD7C827322821007BC330 /* UIColor.swift */; };
 		48AFD7CB273228D7007BC330 /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48AFD7CA273228D7007BC330 /* CircleView.swift */; };
 /* End PBXBuildFile section */
@@ -54,6 +55,7 @@
 		48389426272FC823007C963C /* LastCircleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LastCircleUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		48389435272FCE55007C963C /* Circle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Circle.swift; sourceTree = "<group>"; };
 		486FED4627323620008F9979 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = LastCircle/README.md; sourceTree = "<group>"; };
+		486FED47273282DC008F9979 /* CircleFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleFactory.swift; sourceTree = "<group>"; };
 		48AFD7C827322821007BC330 /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
 		48AFD7CA273228D7007BC330 /* CircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -111,6 +113,7 @@
 				48389405272FC822007C963C /* SceneDelegate.swift */,
 				48389407272FC822007C963C /* ViewController.swift */,
 				48389435272FCE55007C963C /* Circle.swift */,
+				486FED47273282DC008F9979 /* CircleFactory.swift */,
 				48AFD7CA273228D7007BC330 /* CircleView.swift */,
 				48AFD7C827322821007BC330 /* UIColor.swift */,
 				48389409272FC822007C963C /* Main.storyboard */,
@@ -272,6 +275,7 @@
 				48AFD7CB273228D7007BC330 /* CircleView.swift in Sources */,
 				48389408272FC822007C963C /* ViewController.swift in Sources */,
 				48389436272FCE55007C963C /* Circle.swift in Sources */,
+				486FED48273282DC008F9979 /* CircleFactory.swift in Sources */,
 				48389404272FC822007C963C /* AppDelegate.swift in Sources */,
 				48389406272FC822007C963C /* SceneDelegate.swift in Sources */,
 				48AFD7C927322821007BC330 /* UIColor.swift in Sources */,
