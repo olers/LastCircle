@@ -53,6 +53,7 @@
 		48389424272FC823007C963C /* LastCircleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LastCircleUITests.swift; sourceTree = "<group>"; };
 		48389426272FC823007C963C /* LastCircleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LastCircleUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		48389435272FCE55007C963C /* Circle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Circle.swift; sourceTree = "<group>"; };
+		486FED4627323620008F9979 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = LastCircle/README.md; sourceTree = "<group>"; };
 		48AFD7C827322821007BC330 /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
 		48AFD7CA273228D7007BC330 /* CircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -85,6 +86,7 @@
 		483893F7272FC822007C963C = {
 			isa = PBXGroup;
 			children = (
+				486FED4627323620008F9979 /* README.md */,
 				48389402272FC822007C963C /* LastCircle */,
 				48389419272FC823007C963C /* LastCircleTests */,
 				48389423272FC823007C963C /* LastCircleUITests */,
