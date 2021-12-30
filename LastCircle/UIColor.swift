@@ -18,4 +18,14 @@ extension UIColor {
             return UIColor(red: red, green: green, blue: blue, alpha: 1.0)
         }
     }
+    func invertColor() -> UIColor {
+        var r:CGFloat = 0, g:CGFloat = 0, b:CGFloat = 0
+//        print("RGBBBB is : \(color?.cgColor.components)")
+        let rgb = self.cgColor.components
+        r = rgb![0]
+        g = rgb![1]
+        b = rgb![2]
+        self.getRed(&r, green: &g, blue: &b, alpha: nil)
+        return UIColor(red:1.0-r, green: 1.0-g, blue: 1.0-b, alpha: 1)
+    }
 }

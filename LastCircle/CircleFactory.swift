@@ -10,9 +10,9 @@ import Foundation
 class CircleFactory {
     var circles = [Circle]()
     init() {
-        for i in Range(1...3) {
+//        for _ in Range(1...1) {
             addCircle()
-        }
+//        }
         
     }
     

@@ -29,13 +29,25 @@ class Circle {
     
     class func randomCircle() -> Circle {
         let screenRect = UIScreen.main.bounds
+//        print(self.bounds.size)
+        
         let screenWidth = screenRect.width
         let screenHeight = screenRect.height
-        
+//        print("!!! \(screenWidth)")
         let randomRadius = minRadius + Int(arc4random_uniform( UInt32(maxRadius - minRadius) ))
         
         let x = CGFloat( randomRadius + Int(arc4random_uniform( UInt32(screenWidth - CGFloat(2 * randomRadius))) ) )
+//        if x + CGFloat(randomRadius) > screenWidth {
+//            print("!!!!!!!!!!!!!!!! ")
+//        }
         let y = CGFloat( randomRadius + Int(arc4random_uniform( UInt32(screenHeight - CGFloat(2 * randomRadius))) ) )
+//        print("!!!x: \(x) = randomRadius \(randomRadius) + \(UInt32(screenWidth - CGFloat(2 * randomRadius))))")
+        
+//        let x, y: CGFloat
+//        let randomRadius = 10
+//        x = 0
+//        y = 0
+        
         let randomCenter = CGPoint(x: x, y: y)
         
         let randomColor = UIColor.randomColor

@@ -15,7 +15,7 @@ class CircleView: UIView {
     }
     
     init(circle: Circle) {
-        let frame = CGRect(x: circle.center.x, y: circle.center.y, width: CGFloat(circle.radius * 2), height: CGFloat(circle.radius * 2) )
+        let frame = CGRect(x: circle.center.x - CGFloat(circle.radius), y: circle.center.y - CGFloat(circle.radius), width: CGFloat(circle.radius * 2), height: CGFloat(circle.radius * 2) )
         super.init(frame: frame)
         self.backgroundColor = circle.color
         self.layer.cornerRadius = CGFloat(circle.radius)
