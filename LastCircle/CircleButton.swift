@@ -16,7 +16,6 @@ class CircleButton: UIButton {
     
     var delegate: CircleButtonDelegate?
     
-    static var lastCircleButton = CircleButton()
     
 //    @available(*, unavailable)
 //    required init?(coder: NSCoder) {
@@ -41,7 +40,7 @@ class CircleButton: UIButton {
         self.addTarget(self, action: #selector(tapButton), for: .touchUpInside)
         self.layer.borderColor = UIColor.black.cgColor
         self.layer.borderWidth = 1
-        self.setTitle("\(circleNum)", for: .normal)
+//        self.setTitle("\(circleNum)", for: .normal)
         self.setTitleColor(self.backgroundColor?.invertColor(), for: .normal)
 //        self.titleLabel?.text = "\(circleNum)111"
 //        self.titleLabel?.textColor = self.backgroundColor?.invertColor(for: self.backgroundColor)

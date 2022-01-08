@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		48389404272FC822007C963C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48389403272FC822007C963C /* AppDelegate.swift */; };
 		48389406272FC822007C963C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48389405272FC822007C963C /* SceneDelegate.swift */; };
-		48389408272FC822007C963C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48389407272FC822007C963C /* ViewController.swift */; };
+		48389408272FC822007C963C /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48389407272FC822007C963C /* MainViewController.swift */; };
 		4838940B272FC822007C963C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48389409272FC822007C963C /* Main.storyboard */; };
 		4838940D272FC823007C963C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4838940C272FC823007C963C /* Assets.xcassets */; };
 		48389410272FC823007C963C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4838940E272FC823007C963C /* LaunchScreen.storyboard */; };
@@ -44,7 +44,7 @@
 		48389400272FC822007C963C /* LastCircle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LastCircle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		48389403272FC822007C963C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		48389405272FC822007C963C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		48389407272FC822007C963C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		48389407272FC822007C963C /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		4838940A272FC822007C963C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4838940C272FC823007C963C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4838940F272FC823007C963C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -113,7 +113,7 @@
 			children = (
 				48389403272FC822007C963C /* AppDelegate.swift */,
 				48389405272FC822007C963C /* SceneDelegate.swift */,
-				48389407272FC822007C963C /* ViewController.swift */,
+				48389407272FC822007C963C /* MainViewController.swift */,
 				48389435272FCE55007C963C /* Circle.swift */,
 				486FED47273282DC008F9979 /* CircleFactory.swift */,
 				486FED4B27350FF8008F9979 /* CircleButton.swift */,
@@ -276,7 +276,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				48AFD7CB273228D7007BC330 /* CircleView.swift in Sources */,
-				48389408272FC822007C963C /* ViewController.swift in Sources */,
+				48389408272FC822007C963C /* MainViewController.swift in Sources */,
 				48389436272FCE55007C963C /* Circle.swift in Sources */,
 				486FED4C27350FF8008F9979 /* CircleButton.swift in Sources */,
 				486FED48273282DC008F9979 /* CircleFactory.swift in Sources */,

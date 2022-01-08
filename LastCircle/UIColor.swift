@@ -20,7 +20,6 @@ extension UIColor {
     }
     func invertColor() -> UIColor {
         var r:CGFloat = 0, g:CGFloat = 0, b:CGFloat = 0
-//        print("RGBBBB is : \(color?.cgColor.components)")
         let rgb = self.cgColor.components
         r = rgb![0]
         g = rgb![1]
